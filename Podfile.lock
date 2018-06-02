@@ -1,0 +1,16 @@
+PODS:
+  - Alacrity (0.3.8)
+
+DEPENDENCIES:
+  - Alacrity
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alacrity
+
+SPEC CHECKSUMS:
+  Alacrity: e6d07c69a82d921f3230bc54520016a9c441efc9
+
+PODFILE CHECKSUM: bc0de5dd15b7a59a77fba508891be5d330c67a71
+
+COCOAPODS: 1.5.2

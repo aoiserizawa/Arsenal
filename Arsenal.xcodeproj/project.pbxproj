@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3EB226F9F3D93A19D1201A /* Pods_Arsenal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D732B56159CC954B04EB835A /* Pods_Arsenal.framework */; };
+		70A7EEBE348D2FC8FAAA1270 /* Pods_ArsenalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156C1A4CF6366F92568D8193 /* Pods_ArsenalTests.framework */; };
 		7C58D48C20C291580089AC35 /* Arsenal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C58D48220C291580089AC35 /* Arsenal.framework */; };
 		7C58D49120C291580089AC35 /* ArsenalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C58D49020C291580089AC35 /* ArsenalTests.swift */; };
 		7C58D49320C291590089AC35 /* Arsenal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C58D48520C291580089AC35 /* Arsenal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C58D49D20C291A10089AC35 /* GhostFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C58D49C20C291A10089AC35 /* GhostFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +26,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		156C1A4CF6366F92568D8193 /* Pods_ArsenalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArsenalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DFE62D4262BBCFDCAACBB8 /* Pods-ArsenalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArsenalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArsenalTests/Pods-ArsenalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C4B299E073C8E53C0564BB5 /* Pods-Arsenal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arsenal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Arsenal/Pods-Arsenal.debug.xcconfig"; sourceTree = "<group>"; };
+		7027A459B3D6B668CC1709F5 /* Pods-ArsenalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArsenalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArsenalTests/Pods-ArsenalTests.release.xcconfig"; sourceTree = "<group>"; };
 		7C58D48220C291580089AC35 /* Arsenal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Arsenal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C58D48520C291580089AC35 /* Arsenal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Arsenal.h; sourceTree = "<group>"; };
 		7C58D48620C291580089AC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C58D48B20C291580089AC35 /* ArsenalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArsenalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C58D49020C291580089AC35 /* ArsenalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArsenalTests.swift; sourceTree = "<group>"; };
 		7C58D49220C291580089AC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C58D49C20C291A10089AC35 /* GhostFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostFormView.swift; sourceTree = "<group>"; };
+		92BC7442FA2675567BF3CE97 /* Pods-Arsenal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Arsenal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Arsenal/Pods-Arsenal.release.xcconfig"; sourceTree = "<group>"; };
+		D732B56159CC954B04EB835A /* Pods_Arsenal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Arsenal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E3EB226F9F3D93A19D1201A /* Pods_Arsenal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C58D48C20C291580089AC35 /* Arsenal.framework in Frameworks */,
+				70A7EEBE348D2FC8FAAA1270 /* Pods_ArsenalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +68,8 @@
 				7C58D48420C291580089AC35 /* Arsenal */,
 				7C58D48F20C291580089AC35 /* ArsenalTests */,
 				7C58D48320C291580089AC35 /* Products */,
+				F3B931C9A99855FE699E399D /* Pods */,
+				C749B5F76B1C2BA862A96909 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +87,7 @@
 			children = (
 				7C58D48520C291580089AC35 /* Arsenal.h */,
 				7C58D48620C291580089AC35 /* Info.plist */,
+				7C58D49C20C291A10089AC35 /* GhostFormView.swift */,
 			);
 			path = Arsenal;
 			sourceTree = "<group>";
@@ -84,6 +99,26 @@
 				7C58D49220C291580089AC35 /* Info.plist */,
 			);
 			path = ArsenalTests;
+			sourceTree = "<group>";
+		};
+		C749B5F76B1C2BA862A96909 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D732B56159CC954B04EB835A /* Pods_Arsenal.framework */,
+				156C1A4CF6366F92568D8193 /* Pods_ArsenalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3B931C9A99855FE699E399D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C4B299E073C8E53C0564BB5 /* Pods-Arsenal.debug.xcconfig */,
+				92BC7442FA2675567BF3CE97 /* Pods-Arsenal.release.xcconfig */,
+				31DFE62D4262BBCFDCAACBB8 /* Pods-ArsenalTests.debug.xcconfig */,
+				7027A459B3D6B668CC1709F5 /* Pods-ArsenalTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +139,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C58D49620C291590089AC35 /* Build configuration list for PBXNativeTarget "Arsenal" */;
 			buildPhases = (
+				5944EE104F5AAE74AF97E592 /* [CP] Check Pods Manifest.lock */,
 				7C58D47D20C291580089AC35 /* Sources */,
 				7C58D47E20C291580089AC35 /* Frameworks */,
 				7C58D47F20C291580089AC35 /* Headers */,
@@ -122,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C58D49920C291590089AC35 /* Build configuration list for PBXNativeTarget "ArsenalTests" */;
 			buildPhases = (
+				B258342DAF39FA9895B9F6D2 /* [CP] Check Pods Manifest.lock */,
 				7C58D48720C291580089AC35 /* Sources */,
 				7C58D48820C291580089AC35 /* Frameworks */,
 				7C58D48920C291580089AC35 /* Resources */,
+				8D33AE97F7059B32675FAA4E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +186,7 @@
 				TargetAttributes = {
 					7C58D48120C291580089AC35 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					7C58D48A20C291580089AC35 = {
 						CreatedOnToolsVersion = 9.3;
@@ -189,11 +228,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5944EE104F5AAE74AF97E592 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Arsenal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D33AE97F7059B32675FAA4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArsenalTests/Pods-ArsenalTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alacrity/Alacrity.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alacrity.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArsenalTests/Pods-ArsenalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B258342DAF39FA9895B9F6D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArsenalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7C58D47D20C291580089AC35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C58D49D20C291A10089AC35 /* GhostFormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +435,9 @@
 		};
 		7C58D49720C291590089AC35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C4B299E073C8E53C0564BB5 /* Pods-Arsenal.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -355,6 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hero.Arsenal;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -362,7 +462,9 @@
 		};
 		7C58D49820C291590089AC35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92BC7442FA2675567BF3CE97 /* Pods-Arsenal.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -386,7 +488,9 @@
 		};
 		7C58D49A20C291590089AC35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31DFE62D4262BBCFDCAACBB8 /* Pods-ArsenalTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ArsenalTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,7 +507,9 @@
 		};
 		7C58D49B20C291590089AC35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7027A459B3D6B668CC1709F5 /* Pods-ArsenalTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ArsenalTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
